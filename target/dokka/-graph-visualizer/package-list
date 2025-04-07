@@ -1,0 +1,76 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:trtox.graphvisualizer.logic////PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/index.html
+$dokka.location:trtox.graphvisualizer.logic/Edge///PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edge/index.html
+$dokka.location:trtox.graphvisualizer.logic/Edge/Edge/#trtox.graphvisualizer.logic.Vertex#trtox.graphvisualizer.logic.Vertex/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edge/-edge.html
+$dokka.location:trtox.graphvisualizer.logic/Edge/isEnabled/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edge/is-enabled.html
+$dokka.location:trtox.graphvisualizer.logic/Edge/leftVertex/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edge/left-vertex.html
+$dokka.location:trtox.graphvisualizer.logic/Edge/rightVertex/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edge/right-vertex.html
+$dokka.location:trtox.graphvisualizer.logic/Edge/toString/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edge/to-string.html
+$dokka.location:trtox.graphvisualizer.logic/Edges///PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges/index.html
+$dokka.location:trtox.graphvisualizer.logic/Edges/Edges/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges/-edges.html
+$dokka.location:trtox.graphvisualizer.logic/Edges/addEdge/#trtox.graphvisualizer.logic.Edge/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges/add-edge.html
+$dokka.location:trtox.graphvisualizer.logic/Edges/contains/#trtox.graphvisualizer.logic.Edge/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges/contains.html
+$dokka.location:trtox.graphvisualizer.logic/Edges/getEnabledEdges/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges/get-enabled-edges.html
+$dokka.location:trtox.graphvisualizer.logic/Edges/removeAllEdges/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges/remove-all-edges.html
+$dokka.location:trtox.graphvisualizer.logic/Edges/toString/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges/to-string.html
+$dokka.location:trtox.graphvisualizer.logic/Edges/updateEdgesForVertex/#kotlin.String#kotlin.Boolean/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges/update-edges-for-vertex.html
+$dokka.location:trtox.graphvisualizer.logic/EdgesManager///PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges-manager/index.html
+$dokka.location:trtox.graphvisualizer.logic/EdgesManager/EdgesManager/#kotlin.Function1[kotlin.collections.Set[trtox.graphvisualizer.logic.Edge],kotlin.Unit]#trtox.graphvisualizer.ui.VerticesUI/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges-manager/-edges-manager.html
+$dokka.location:trtox.graphvisualizer.logic/EdgesManager/getEnabledEdges/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges-manager/get-enabled-edges.html
+$dokka.location:trtox.graphvisualizer.logic/EdgesManager/handleTextChanged/#kotlin.String/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges-manager/handle-text-changed.html
+$dokka.location:trtox.graphvisualizer.logic/EdgesManager/handleVertexStatusChange/#kotlin.String#kotlin.Boolean/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges-manager/handle-vertex-status-change.html
+$dokka.location:trtox.graphvisualizer.logic/EdgesManager/onEdgesChange/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-edges-manager/on-edges-change.html
+$dokka.location:trtox.graphvisualizer.logic/Vertex///PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertex/index.html
+$dokka.location:trtox.graphvisualizer.logic/Vertex/Vertex/#kotlin.Int#kotlin.String/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertex/-vertex.html
+$dokka.location:trtox.graphvisualizer.logic/Vertex/degree/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertex/degree.html
+$dokka.location:trtox.graphvisualizer.logic/Vertex/id/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertex/id.html
+$dokka.location:trtox.graphvisualizer.logic/Vertex/isEnabled/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertex/is-enabled.html
+$dokka.location:trtox.graphvisualizer.logic/Vertex/label/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertex/label.html
+$dokka.location:trtox.graphvisualizer.logic/Vertices///PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices/index.html
+$dokka.location:trtox.graphvisualizer.logic/Vertices/Vertices/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices/-vertices.html
+$dokka.location:trtox.graphvisualizer.logic/Vertices/addVertex/#trtox.graphvisualizer.logic.Vertex/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices/add-vertex.html
+$dokka.location:trtox.graphvisualizer.logic/Vertices/contains/#trtox.graphvisualizer.logic.Vertex/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices/contains.html
+$dokka.location:trtox.graphvisualizer.logic/Vertices/getAllVertices/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices/get-all-vertices.html
+$dokka.location:trtox.graphvisualizer.logic/Vertices/getVertexByLabel/#kotlin.String/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices/get-vertex-by-label.html
+$dokka.location:trtox.graphvisualizer.logic/Vertices/removeVertex/#trtox.graphvisualizer.logic.Vertex/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices/remove-vertex.html
+$dokka.location:trtox.graphvisualizer.logic/Vertices/size/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices/size.html
+$dokka.location:trtox.graphvisualizer.logic/VerticesManager///PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices-manager/index.html
+$dokka.location:trtox.graphvisualizer.logic/VerticesManager/VerticesManager/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices-manager/-vertices-manager.html
+$dokka.location:trtox.graphvisualizer.logic/VerticesManager/addVertex/#trtox.graphvisualizer.logic.Vertex/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices-manager/add-vertex.html
+$dokka.location:trtox.graphvisualizer.logic/VerticesManager/getAllVertices/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices-manager/get-all-vertices.html
+$dokka.location:trtox.graphvisualizer.logic/VerticesManager/getVertexByLabel/#kotlin.String/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices-manager/get-vertex-by-label.html
+$dokka.location:trtox.graphvisualizer.logic/VerticesManager/getVertexCount/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices-manager/get-vertex-count.html
+$dokka.location:trtox.graphvisualizer.logic/VerticesManager/removeVertexByLabel/#kotlin.String/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices-manager/remove-vertex-by-label.html
+$dokka.location:trtox.graphvisualizer.logic/VerticesManager/setVertexState/#kotlin.String#kotlin.Boolean/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.logic/-vertices-manager/set-vertex-state.html
+$dokka.location:trtox.graphvisualizer.ui////PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/index.html
+$dokka.location:trtox.graphvisualizer.ui/EdgesUI///PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-edges-u-i/index.html
+$dokka.location:trtox.graphvisualizer.ui/EdgesUI/EdgesUI/#kotlin.Function1[kotlin.collections.Set[trtox.graphvisualizer.logic.Edge],kotlin.Unit]#trtox.graphvisualizer.ui.VerticesUI/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-edges-u-i/-edges-u-i.html
+$dokka.location:trtox.graphvisualizer.ui/EdgesUI/handleVertexStatusChange/#kotlin.String#kotlin.Boolean/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-edges-u-i/handle-vertex-status-change.html
+$dokka.location:trtox.graphvisualizer.ui/EdgesUI/onEdgesChange/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-edges-u-i/on-edges-change.html
+$dokka.location:trtox.graphvisualizer.ui/GraphEditorUI///PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-graph-editor-u-i/index.html
+$dokka.location:trtox.graphvisualizer.ui/GraphEditorUI/GraphEditorUI/#kotlin.Function1[kotlin.collections.Set[trtox.graphvisualizer.logic.Edge],kotlin.Unit]/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-graph-editor-u-i/-graph-editor-u-i.html
+$dokka.location:trtox.graphvisualizer.ui/GraphVisualizerUI///PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-graph-visualizer-u-i/index.html
+$dokka.location:trtox.graphvisualizer.ui/GraphVisualizerUI/GraphVisualizerUI/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-graph-visualizer-u-i/-graph-visualizer-u-i.html
+$dokka.location:trtox.graphvisualizer.ui/GraphVisualizerUI/displayDiagram/#kotlin.collections.Set[trtox.graphvisualizer.logic.Edge]/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-graph-visualizer-u-i/display-diagram.html
+$dokka.location:trtox.graphvisualizer.ui/UIManager///PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-u-i-manager/index.html
+$dokka.location:trtox.graphvisualizer.ui/UIManager/UIManager/#[Error type: Unresolved type for Stage]/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-u-i-manager/-u-i-manager.html
+$dokka.location:trtox.graphvisualizer.ui/UIManager/setupUI/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-u-i-manager/setup-u-i.html
+$dokka.location:trtox.graphvisualizer.ui/VerticesUI///PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-vertices-u-i/index.html
+$dokka.location:trtox.graphvisualizer.ui/VerticesUI/VerticesUI/#kotlin.Function2[kotlin.String,kotlin.Boolean,kotlin.Unit]/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-vertices-u-i/-vertices-u-i.html
+$dokka.location:trtox.graphvisualizer.ui/VerticesUI/addVertex/#trtox.graphvisualizer.logic.Vertex/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-vertices-u-i/add-vertex.html
+$dokka.location:trtox.graphvisualizer.ui/VerticesUI/getAllVertices/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-vertices-u-i/get-all-vertices.html
+$dokka.location:trtox.graphvisualizer.ui/VerticesUI/getVertexByLabel/#kotlin.String/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-vertices-u-i/get-vertex-by-label.html
+$dokka.location:trtox.graphvisualizer.ui/VerticesUI/getVertexCount/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-vertices-u-i/get-vertex-count.html
+$dokka.location:trtox.graphvisualizer.ui/VerticesUI/onVertexStatusChange/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-vertices-u-i/on-vertex-status-change.html
+$dokka.location:trtox.graphvisualizer.ui/VerticesUI/removeVertexByLabel/#kotlin.String/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-vertices-u-i/remove-vertex-by-label.html
+$dokka.location:trtox.graphvisualizer.ui/VerticesUI/setVertexLabelState/#kotlin.String#kotlin.Boolean/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer.ui/-vertices-u-i/set-vertex-label-state.html
+$dokka.location:trtox.graphvisualizer////PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer/index.html
+$dokka.location:trtox.graphvisualizer//main/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer/main.html
+$dokka.location:trtox.graphvisualizer/GraphVisualizer///PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer/-graph-visualizer/index.html
+$dokka.location:trtox.graphvisualizer/GraphVisualizer/GraphVisualizer/#/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer/-graph-visualizer/-graph-visualizer.html
+$dokka.location:trtox.graphvisualizer/GraphVisualizer/start/#[Error type: Unresolved type for Stage]/PointingToDeclaration/-graph-visualizer/trtox.graphvisualizer/-graph-visualizer/start.html
+trtox.graphvisualizer
+trtox.graphvisualizer.logic
+trtox.graphvisualizer.ui
+

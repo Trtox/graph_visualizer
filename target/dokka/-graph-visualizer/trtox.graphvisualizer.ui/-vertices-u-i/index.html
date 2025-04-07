@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>VerticesUI</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            GraphVisualizer
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter="GraphVisualizer/JVM">JVM</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="GraphVisualizer::trtox.graphvisualizer.ui/VerticesUI///PointingToDeclaration//-1487413998">
+  <div class="breadcrumbs"><a href="../../../index.html">GraphVisualizer</a><span class="delimiter">/</span><a href="../index.html">trtox.graphvisualizer.ui</a><span class="delimiter">/</span><span class="current">VerticesUI</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Vertices</span><wbr></wbr><span><span>UI</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="GraphVisualizer/JVM"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">VerticesUI</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">var </span>onVertexStatusChange<span class="token operator">: </span><span class="token punctuation">(</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html">Unit</a></span></span><span class="token punctuation">)</span></div><p class="paragraph">User interface component for managing and displaying graph vertices.</p><p class="paragraph">This class allows users to interact with vertices in a graph by enabling or disabling them. It maintains a list of vertices and displays them as labels in a <code class="lang-kotlin">FlowPane</code>. Each vertex label has a context menu to enable or disable the vertex, which affects the graph visualization.</p><p class="paragraph">Vertices are managed by the <code class="lang-kotlin">VerticesManager</code>, which handles the logic for adding, removing, and updating vertices. The UI updates automatically when the state of the vertices changes, and the vertex count is displayed at the top.</p><p class="paragraph">The class provides a callback (<code class="lang-kotlin">onVertexStatusChange</code>) that is triggered whenever a vertex's state (enabled/disabled) is changed by the user.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-1264081897%2FConstructors%2F-1487413998" anchor-label="VerticesUI" id="-1264081897%2FConstructors%2F-1487413998" data-filterable-set="GraphVisualizer/JVM"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current="GraphVisualizer/JVM" data-filterable-set="GraphVisualizer/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-vertices-u-i.html"><span>Vertices</span><wbr></wbr><span><span>UI</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1264081897%2FConstructors%2F-1487413998"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="GraphVisualizer/JVM"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">onVertexStatusChange<span class="token operator">: </span><span class="token punctuation">(</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html">Unit</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1255936640%2FProperties%2F-1487413998" anchor-label="onVertexStatusChange" id="1255936640%2FProperties%2F-1487413998" data-filterable-set="GraphVisualizer/JVM"></a>
+          <div class="table-row" data-filterable-current="GraphVisualizer/JVM" data-filterable-set="GraphVisualizer/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-vertex-status-change.html"><span>on</span><wbr></wbr><span>Vertex</span><wbr></wbr><span>Status</span><wbr></wbr><span><span>Change</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1255936640%2FProperties%2F-1487413998"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="GraphVisualizer/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="on-vertex-status-change.html">onVertexStatusChange</a><span class="token operator">: </span><span class="token punctuation">(</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html">Unit</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1278433835%2FFunctions%2F-1487413998" anchor-label="addVertex" id="1278433835%2FFunctions%2F-1487413998" data-filterable-set="GraphVisualizer/JVM"></a>
+          <div class="table-row" data-filterable-current="GraphVisualizer/JVM" data-filterable-set="GraphVisualizer/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="add-vertex.html"><span>add</span><wbr></wbr><span><span>Vertex</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1278433835%2FFunctions%2F-1487413998"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="GraphVisualizer/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="add-vertex.html"><span class="token function">addVertex</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">vertex<span class="token operator">: </span><a href="../../trtox.graphvisualizer.logic/-vertex/index.html">Vertex</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Adds a <a href="add-vertex.html">vertex</a> to the UI and updates the vertex counter.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1562874847%2FFunctions%2F-1487413998" anchor-label="getAllVertices" id="-1562874847%2FFunctions%2F-1487413998" data-filterable-set="GraphVisualizer/JVM"></a>
+          <div class="table-row" data-filterable-current="GraphVisualizer/JVM" data-filterable-set="GraphVisualizer/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-all-vertices.html"><span>get</span><wbr></wbr><span>All</span><wbr></wbr><span><span>Vertices</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1562874847%2FFunctions%2F-1487413998"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="GraphVisualizer/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-all-vertices.html"><span class="token function">getAllVertices</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../trtox.graphvisualizer.logic/-vertex/index.html">Vertex</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Gets all vertices managed by this UI component as a set.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-132111198%2FFunctions%2F-1487413998" anchor-label="getVertexByLabel" id="-132111198%2FFunctions%2F-1487413998" data-filterable-set="GraphVisualizer/JVM"></a>
+          <div class="table-row" data-filterable-current="GraphVisualizer/JVM" data-filterable-set="GraphVisualizer/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-vertex-by-label.html"><span>get</span><wbr></wbr><span>Vertex</span><wbr></wbr><span>By</span><wbr></wbr><span><span>Label</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-132111198%2FFunctions%2F-1487413998"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="GraphVisualizer/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-vertex-by-label.html"><span class="token function">getVertexByLabel</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">label<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../trtox.graphvisualizer.logic/-vertex/index.html">Vertex</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Gets a vertex by its <a href="get-vertex-by-label.html">label</a></p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-758247376%2FFunctions%2F-1487413998" anchor-label="getVertexCount" id="-758247376%2FFunctions%2F-1487413998" data-filterable-set="GraphVisualizer/JVM"></a>
+          <div class="table-row" data-filterable-current="GraphVisualizer/JVM" data-filterable-set="GraphVisualizer/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-vertex-count.html"><span>get</span><wbr></wbr><span>Vertex</span><wbr></wbr><span><span>Count</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-758247376%2FFunctions%2F-1487413998"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="GraphVisualizer/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-vertex-count.html"><span class="token function">getVertexCount</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Gets the current count of vertices.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1294837116%2FFunctions%2F-1487413998" anchor-label="removeVertexByLabel" id="-1294837116%2FFunctions%2F-1487413998" data-filterable-set="GraphVisualizer/JVM"></a>
+          <div class="table-row" data-filterable-current="GraphVisualizer/JVM" data-filterable-set="GraphVisualizer/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="remove-vertex-by-label.html"><span>remove</span><wbr></wbr><span>Vertex</span><wbr></wbr><span>By</span><wbr></wbr><span><span>Label</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1294837116%2FFunctions%2F-1487413998"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="GraphVisualizer/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="remove-vertex-by-label.html"><span class="token function">removeVertexByLabel</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">label<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Removes a vertex from the UI by its <a href="remove-vertex-by-label.html">label</a> and updates the vertex counter.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="546242162%2FFunctions%2F-1487413998" anchor-label="setVertexLabelState" id="546242162%2FFunctions%2F-1487413998" data-filterable-set="GraphVisualizer/JVM"></a>
+          <div class="table-row" data-filterable-current="GraphVisualizer/JVM" data-filterable-set="GraphVisualizer/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-vertex-label-state.html"><span>set</span><wbr></wbr><span>Vertex</span><wbr></wbr><span>Label</span><wbr></wbr><span><span>State</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="546242162%2FFunctions%2F-1487413998"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="GraphVisualizer/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-vertex-label-state.html"><span class="token function">setVertexLabelState</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">label<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">newState<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">Sets the state of a vertex with <a href="set-vertex-label-state.html">label</a> to <a href="set-vertex-label-state.html">newState</a> (enabled/disabled).</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2025 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
