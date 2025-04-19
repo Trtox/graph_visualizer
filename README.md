@@ -1,7 +1,5 @@
 # Graph Visualizer
 
-Originally implemented as a part of JetBrains Internship Application Test Task.
-
 ## General
 
 This project is a Kotlin-based GUI application for visualizing and interacting with directed graphs using JavaFX. Users can define graphs through a text input area where edges are specified, and toggle vertex states (enabled/disabled). The diagram updates automatically in real-time, ensuring an interactive and responsive experience even with large graphs.
